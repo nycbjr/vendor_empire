@@ -3,6 +3,5 @@ add_lunch_combo empire_maguro-userdebug
 add_lunch_combo empire_mako-userdebug
 add_lunch_combo empire_grouper-userdebug
 add_lunch_combo empire_endeavoru-userdebug
-add_lunch_combo empire_p3113-userdebug
 add_lunch_combo empire_tf300t-userdebug
 add_lunch_combo empire_tf700t-userdebug

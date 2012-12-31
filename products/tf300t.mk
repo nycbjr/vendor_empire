@@ -2,12 +2,12 @@
 $(call inherit-product, device/asus/tf300t/full_tf300t.mk)
 
 # Inherit common product files.
-$(call inherit-product, vendor/baked/configs/common_tablet.mk)
+$(call inherit-product, vendor/empire/configs/common_tablet.mk)
 
-# PRODUCT_PACKAGE_OVERLAYS += vendor/baked/overlay/tf-common
+# PRODUCT_PACKAGE_OVERLAYS += vendor/empire/overlay/tf-common
 
 # Setup device specific product configuration.
-PRODUCT_NAME := baked_tf300t
+PRODUCT_NAME := empire_tf300t
 PRODUCT_BRAND := asus
 PRODUCT_DEVICE := tf300t
 PRODUCT_MODEL := Transformer Pad TF300T
@@ -19,7 +19,7 @@ PRODUCT_BUILD_PROP_OVERRIDES += PRODUCT_NAME=EeePad BUILD_FINGERPRINT=asus/WW_ep
 
 # bootanimation
 PRODUCT_COPY_FILES += \
-	vendor/baked/prebuilt/bootanimation/bootanimation_1280_800.zip:system/media/bootanimation.zip
+	vendor/empire/prebuilt/bootanimation/bootanimation_1280_800.zip:system/media/bootanimation.zip
 
 # Inherit additional apps to install
-$(call inherit-product, vendor/baked/prebuilt/asus_common/device_vendor.mk)
+$(call inherit-product, vendor/empire/prebuilt/asus_common/device_vendor.mk)
